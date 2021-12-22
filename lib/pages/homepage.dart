@@ -5,13 +5,12 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("Restart")),
+        title: Text("Restart"),
       ),
-      body: Center(
-        child: Container(
-          child: Text("hi"),
-        ),
+      body: Container(
+        child: Center(child: Text("hi")),
       ),
+      drawer: Drawer(),
     );
   }
 }
